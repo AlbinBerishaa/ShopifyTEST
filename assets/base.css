@@ -3718,3 +3718,11 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+h1,
+h2,
+h3,
+h4 {
+  color: red !important;
+  background-color: white !important;
+  text-align: center;
+}
