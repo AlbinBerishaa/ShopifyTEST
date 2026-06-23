@@ -3726,3 +3726,16 @@ h4 {
   background-color: white !important;
   text-align: center;
 }
+.custom-section {
+  width: 100%;
+  height: auto;
+}
+.custom-left {
+  text-align: left !important;
+}
+.custom-middle {
+  text-align: center !important;
+}
+.custom-right {
+  text-align: right !important;
+}
