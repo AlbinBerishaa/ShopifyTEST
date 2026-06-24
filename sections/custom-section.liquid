@@ -13,10 +13,10 @@
 {%- endstyle -%}
 
 <div class="section-{{ section.id }}-padding">
-  <section class="custom-section">
-    <div class="{%  if section.settings.side == "left" %} custom-left {% endif %}
-    {%  if section.settings.side == "middle" %} custom-middle {% endif %}
-    {%  if section.settings.side == "right" %} custom-right {% endif %} ">
+  <section class="w-full h-auto">
+    <div class=" text-2xl text-blue-700{%  if section.settings.side == "left" %} text-left{% endif %}
+    {%  if section.settings.side == "middle" %} text-center {% endif %}
+    {%  if section.settings.side == "right" %} text-right {% endif %} ">
       {{ section.settings.custom_text }}</div>
   </section>
 </div>
