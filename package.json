@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "tailwind": "npx @tailwindcss/cli -i ./src/tailwind.css -o ./assets/tailwind.css --watch",
-    "build": "npx @tailwindcss/cli -i ./src/tailwind.css -o ./assets/tailwind.css --minify"
+    "build": "npx @tailwindcss/cli -i ./src/tailwind.css -o ./assets/tailwind.css --minify",
+    "dev": "shopify theme dev"
   }
 }
